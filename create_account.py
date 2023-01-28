@@ -9,6 +9,8 @@ def create_account(ls):
     account_name = input('Enter Your Name (WITHOUT SPACES): ')
     account_password = input('Enter Your Password (WITHOUT SPACES): ')
 
+
+
     print("Creating Your Account .....")
     accounts_file = open('Accounts.txt', 'a')
 
