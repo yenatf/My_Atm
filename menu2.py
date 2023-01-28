@@ -18,6 +18,7 @@ def menu2(account):
     # account[2] password
     # account[3] balance
 
+    
     print("\n---------Hello, {0}--------- ".format(account[1]))
     ch = int(input("\n1) show info \n2) show process history\n3) deposit\n4) withdraw\n"
                    "5) change password \n6) logout\n\nchoice>> "))
