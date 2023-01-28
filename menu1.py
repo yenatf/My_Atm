@@ -6,6 +6,8 @@ from menu2 import clear_screen
 accounts_list = read_file('Accounts.txt')
 
 
+
+
 def menu1():
     print('>>>>>>>>WELCOME<<<<<<<<\n')
     choice = int(input('1) Login\n2) Create Account\n3) Exit\n\nchoice>> '))
